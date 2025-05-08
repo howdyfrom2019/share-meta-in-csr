@@ -14,7 +14,7 @@
     const pathParts = window.location.pathname.split('/');
     const slug = pathParts[pathParts.length - 1] || '';
     if (slug) {
-      window.location.replace(`/opportunities/proposal/detail/${slug}`);
+      window.location.replace(`/post/${slug}`);
     } else {
       window.location.replace('/');
     }
