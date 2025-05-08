@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta property="og:title" content="소셜미디어 공유 전용 제목입니다" />
+  <meta property="og:description" content="소셜미디어 공유하는 설명입니다" />
+  <meta property="og:image" content="https://opengraph.dev/banner.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Redirecting...</title>
+</head>
+<body>
+  <script>
+    const pathParts = window.location.pathname.split('/');
+    const slug = pathParts[pathParts.length - 1] || '';
+    if (slug) {
+      window.location.replace(`/opportunities/proposal/detail/${slug}`);
+    } else {
+      window.location.replace('/');
+    }
+  </script>
+</body>
+</html>
